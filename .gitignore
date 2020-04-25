@@ -26,6 +26,7 @@ hs_err_pid*
 .idea
 out
 target
+*.iml
 
 # Ignore Gradle project-specific cache directory
 .gradle
