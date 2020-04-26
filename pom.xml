@@ -6,7 +6,7 @@
 
     <groupId>com.sbrati</groupId>
     <artifactId>spring-boot-starter-gcp-logging</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.5</version>
 
     <name>spring-boot-starter-gcp-logging</name>
 
@@ -15,6 +15,13 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+        </dependency>
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>
@@ -27,13 +34,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-logging</artifactId>
-        </dependency>
-    </dependencies>
 
     <repositories>
         <repository>
